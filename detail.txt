@@ -1,0 +1,11 @@
+created database nikhil
+
+Table for database
+
+table details:date,text
+
+database for registration:
+
+ database name regis 
+
+table details: username,email,password

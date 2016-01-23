@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login & Registration System</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<style>
+	
+body{
+
+background: url(grafity.jpg) fixed center center
+
+}
+</style>
+</head>
+<body>
+
+<center>
+<div id="login-form">
+<form action= "register.php" method="post">
+<table align="center" width="30%" border="0">
+<tr>
+<td><input type="text" name="uname" placeholder="User Name" id="username" onkeyup = "checkusername()" /></td>
+<span><p id="k1"></p></span>
+</tr>
+<tr>
+<td><input type="email" name="email" placeholder="Your Email" id= "email" onkeyup = "checkemail()" /></td>
+<span><p id="k2"></p></span>
+</tr>
+<tr>
+<td><input type="password" name="pass" placeholder="Your Password"  id= "password" onkeyup = "checkpassword()"/></td>
+<span><p id="k3"></p></span>
+</tr>
+<tr>
+<td><button type="submit" name="btn-signup">Sign Up</button></td>
+</tr>
+<tr>
+<td><a href="index.php">Sign In Here</a></td>
+</tr>
+</table>
+</form>
+</div>
+</center>
+<script src = "validate.js">
+</script>
+</body>
+</html>
